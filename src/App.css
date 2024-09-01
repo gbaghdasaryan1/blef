@@ -1,0 +1,91 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.selected-cards{
+  width: 95%;
+  min-height: 100px;
+  border: 2px solid darkolivegreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.card{
+  width: 30px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: 1px solid black;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.card:hover{
+  background-color: bisque;
+}
+
+
+.bot-cards{
+  width: 95%;
+  min-height: 100px;
+  border: 2px solid blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.table-cards{
+  width: 95%;
+  min-height: 100px;
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.user-cards{
+  width: 95%;
+  min-height: 100px;
+  border: 2px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.red{
+  color: red;
+}
+
+#answer{
+  width: 60px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.bita{
+  width: 95%;
+  border: 1px solid red;
+}
+
+.bita > div{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
